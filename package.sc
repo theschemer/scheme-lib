@@ -9,7 +9,8 @@
 ("homepage" . "https://github.com/evilbinary/scheme-lib")
 ("private" . #f)
 ("scripts" 
-    ("run" . "scheme --script"))
+    ("run" . "scheme --script")
+	("build" . "make"))
 ("dependencies" 
     ("json" . "0.5.1")
     ("surfage" . "0.1.0")
