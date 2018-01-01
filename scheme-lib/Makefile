@@ -23,9 +23,6 @@ SOFILES= lib/libscm/libscm$(EXT) \
 		 lib/libalut/libalut$(EXT)  \
 		 lib/libsocket/libsocket$(EXT)  \
 		 lib/libc/libc$(EXT) \
-		 lib/scheme/scheme	\
-		 lib/boot/scheme.boot	\
-		 lib/boot/petite.boot	\
 		 
 BINFILES=bin/libscm$(EXT) \
 		 bin/libglut$(EXT)  \
@@ -50,7 +47,7 @@ $(SOFILES):
 
 clean:
 	$(MAKE) -C lib clean
-	rm -rf bin/*.boot bin/scheme bin/*.so $(BINFILES) 
+	rm -rf bin/*.so $(BINFILES) 
 
 android:
 	$(MAKE) -C lib android	
