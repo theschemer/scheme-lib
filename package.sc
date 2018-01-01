@@ -18,6 +18,5 @@
     ("slib" . "3.2.5")
     ("dharmalab" . "0.1.0")
     ("agave" . "0.1.0")
-    ("box2d-lite" . "0.1.0")
-    ("libra" . "0.1.0"))
+    ("box2d-lite" . "0.1.0"))
 ("devDependencies"))
