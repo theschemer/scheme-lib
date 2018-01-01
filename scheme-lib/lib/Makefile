@@ -7,7 +7,7 @@
 ROOT := $(shell pwd)
 SRC := $(ROOT)
 
-TARGET =scheme/scheme
+TARGET =scheme
 
 SUB_DIR :=  libscm \
 	libglut libimgui \
@@ -42,7 +42,7 @@ endif
 all: $(TARGET)	
 	@echo Build complete for $(TARGET)
 $(TARGET): $(OS_NAME) $(LIBS_ALL)
-	$(MAKE) -C scheme
+	# $(MAKE) -C scheme
 libscm.so: $(LIBSCM) 
 	$(MAKE) -C libscm
 
