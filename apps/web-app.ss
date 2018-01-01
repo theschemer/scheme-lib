@@ -4,7 +4,7 @@
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (load "../packages/slib/slib.ss")
-(import (net socket) (net socket-ffi ) (cffi cffi) )
+(import (scheme-lib net socket) (net socket-ffi ) (scheme-lib cffi cffi) )
 
 (require 'http)
 (require 'cgi)

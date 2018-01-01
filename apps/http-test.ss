@@ -4,7 +4,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;http例子
 
-(import (net curl-ffi) (cffi cffi) )
+(import (scheme-lib net curl-ffi) (scheme-lib cffi cffi) )
 
 ;;(cffi-log #t)
 

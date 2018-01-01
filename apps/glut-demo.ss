@@ -2,7 +2,7 @@
 ;作者:evilbinary on 11/19/16.
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(import  (scheme)  (glut glut) (gles gles1) )
+(import  (scheme)  (scheme-lib glut glut) (scheme-lib gles gles1) )
 (define (glut-demo)
       (glut-init)
 

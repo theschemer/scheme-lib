@@ -4,7 +4,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;sqlite 连接例子
 
-(import (sqlite sqlite3-ffi) (cffi cffi) )
+(import (scheme-lib sqlite sqlite3-ffi) (scheme-lib cffi cffi) )
 
 ;;(cffi-log #t)
 

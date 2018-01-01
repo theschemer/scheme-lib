@@ -1,5 +1,5 @@
 (import (web libra)
-		(sqlite sqlite))
+		(scheme-lib sqlite sqlite))
 (using "spider.ss")
 
 (sqlite-name! (string-append (get-option "app-path") "/spider.db"))

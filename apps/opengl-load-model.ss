@@ -4,15 +4,15 @@
 					;作者:evilbinary on 12/24/16.
 					;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(import  (scheme)  (glfw glfw)
-	 (gui imgui)
-	 (gles gles1)
-	 (glut glut)
-	 (cffi cffi)
-	 (gui assimp)
-	 (nanovg nanovg)
-	 (utils libutil)
-	 (utils macro) )
+(import  (scheme)  (scheme-lib glfw glfw)
+	 (scheme-lib gui imgui)
+	 (scheme-lib gles gles1)
+	 (scheme-lib glut glut)
+	 (scheme-lib cffi cffi)
+	 (scheme-lib gui assimp)
+	 (scheme-lib nanovg nanovg)
+	 (scheme-lib utils libutil)
+	 (scheme-lib utils macro) )
 
 
 

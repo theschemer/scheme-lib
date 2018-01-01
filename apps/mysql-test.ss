@@ -4,7 +4,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;mysql 连接例子
 
-(import (mysql mysql-ffi) (cffi cffi) )
+(import (scheme-lib mysql mysql-ffi) (scheme-lib cffi cffi) )
 ;;(cffi-log #t)
 
 (define host "127.0.0.1")

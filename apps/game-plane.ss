@@ -3,10 +3,10 @@
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (import  (scheme) 
-  (gles gles1)
-  (glut glut)
-  (gui imgui)
-  (utils libutil) 
+  (scheme-lib gles gles1)
+  (scheme-lib glut glut)
+  (scheme-lib gui imgui)
+  (scheme-lib utils libutil) 
   (box2d-lite util math)
   (box2d-lite vec)
   (box2d-lite world)
@@ -16,8 +16,8 @@
   (box2d-lite arbiter)
   (dharmalab misc is-vector)
   (box2d-lite contact)
-  (sound alut)
-  (sound al)
+  (scheme-lib sound alut)
+  (scheme-lib sound al)
 
 
 )

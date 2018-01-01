@@ -1,6 +1,6 @@
-(import (net curl)
+(import (scheme-lib net curl)
 		(irregex irregex)
-		(sqlite sqlite))
+		(scheme-lib sqlite sqlite))
 
 ;; 获取图片列表html
 (define (get-images-html html)

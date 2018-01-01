@@ -3,7 +3,7 @@
 ;作者:evilbinary on 12/24/16.
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(import  (scheme)  (glfw glfw) (gui imgui) (gles gles1) (glut glut) (utils libutil)  (utils macro) )
+(import  (scheme)  (scheme-lib glfw glfw) (scheme-lib gui imgui) (scheme-lib gles gles1) (scheme-lib glut glut) (scheme-lib utils libutil)  (scheme-lib utils macro) )
 
 (define window '() )
 ;;资源文件目录设置

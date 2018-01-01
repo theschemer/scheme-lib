@@ -3,7 +3,7 @@
 ;作者:evilbinary on 12/24/16.
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(import (net socket-ffi) (cffi cffi) (net event2-ffi) )
+(import (scheme-lib net socket-ffi) (scheme-lib cffi cffi) (scheme-lib net event2-ffi) )
 ;;(cffi-log #t)
 
 

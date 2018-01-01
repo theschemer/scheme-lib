@@ -1,4 +1,4 @@
-(import  (scheme) (utils libutil) (sound alut) (sound al) )
+(import  (scheme) (scheme-lib utils libutil) (scheme-lib sound alut) (scheme-lib sound al) )
 ;(load-shared-object "libscm.dll")
 ;(load-shared-object "libglut.dll")
 ;(display "hello")

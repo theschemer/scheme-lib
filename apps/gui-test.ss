@@ -2,7 +2,7 @@
 ;作者:evilbinary on 11/19/16.
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(import  (scheme) (gui gui) (utils macro) )
+(import  (scheme) (scheme-lib gui gui) (scheme-lib utils macro) )
 
 (define (test1)
   (window "test gui" 800 800 

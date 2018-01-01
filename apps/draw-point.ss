@@ -2,7 +2,7 @@
 ;作者:evilbinary on 11/19/16.
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(import  (scheme) (gles gles1)  (glut glut) (gui imgui)    )
+(import  (scheme) (scheme-lib gles gles1)  (scheme-lib glut glut) (scheme-lib gui imgui)    )
 (define (gl-draw-point)
         (define gx 0)
         (define gy 0)

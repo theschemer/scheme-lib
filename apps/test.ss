@@ -4,7 +4,7 @@
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
- (import  (scheme) (gles gles1)  (glut glut) (gui imgui) (gui android)  )
+ (import  (scheme) (scheme-lib gles gles1)  (scheme-lib glut glut) (scheme-lib gui imgui) (scheme-lib gui android)  )
  
  (define PI 3.1415)
  (define (glutPrespective fovy aspect zNear zFar)

@@ -112,7 +112,7 @@ scheme-lib 是一个scheme使用的库。目前支持android mac linux windows�
 4. 调用外`libadd.so`库和使用代码如下：
 	
 	```scheme
-	(import  (scheme) (utils libutil) )
+	(import  (scheme) (scheme-lib utils libutil) )
 	(load-lib "libadd.so")
 	(define-c-function int add (int int) )
 	(display (add 100 1234))

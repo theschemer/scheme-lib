@@ -4,7 +4,7 @@
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(import  (scheme)  (cffi cffi)  (mongoc mongoc-ffi) (mongoc bson-ffi)  )
+(import  (scheme)  (scheme-lib cffi cffi)  (scheme-lib mongoc mongoc-ffi) (scheme-lib mongoc bson-ffi)  )
 
 (define client '() )
 

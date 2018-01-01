@@ -3,8 +3,8 @@
 ;作者:evilbinary on 12/24/16.
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(import  (scheme)  (glut glut) (utils libutil) )
-(import (gui imgui))
+(import  (scheme)  (scheme-lib glut glut) (scheme-lib utils libutil) )
+(import (scheme-lib gui imgui))
 ; (load-lib "libimgui.so")
 ; ;;(define-c-function int test-main (int string) )
 ; ;(define-c-function void imgui-test2 (string string int int void* void* void*  ) )

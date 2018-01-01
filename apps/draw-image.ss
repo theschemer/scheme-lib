@@ -3,7 +3,7 @@
 ;作者:evilbinary on 01/08/17.
 ;邮箱:rootdebug@163.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(import  (scheme) (glut glut) (gles gles1) (gui imgui) )
+(import  (scheme) (scheme-lib glut glut) (scheme-lib gles gles1) (scheme-lib gui imgui) )
 ;;资源文件目录设置
 (define res-dir 
          (case (machine-type)
