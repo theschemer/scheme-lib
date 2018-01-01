@@ -5,7 +5,7 @@
 ##########################################################
 
 
-TARGET =bin/scheme
+TARGET = scheme
 EXT=.so
 UNAME_S := $(shell uname -s)
 

@@ -18,13 +18,7 @@
   (define loaded-libs (make-hashtable equal-hash equal?))
 
   (define (load-directories)
-    (append '("." "/usr/local/lib")
-      (if (file-directory? "./lib/scheme-lib")
-        (map (lambda (x) (format "./lib/scheme-lib/~a" x)) (directory-list "./lib/scheme-lib"))
-        '())
-      (if (file-directory? "./scheme-lib")
-        (map (lambda (x) (format "./scheme-lib/~a" x)) (directory-list "./scheme-lib"))
-        '())))
+    '("." "./scheme-lib/bin" "./lib/scheme-lib/bin" "/usr/local/lib"))
 
   (define (load-lib name)
     (let loop ([libs (load-directories)])
