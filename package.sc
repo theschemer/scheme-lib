@@ -10,7 +10,7 @@
 ("private" . #f)
 ("scripts" 
     ("run" . "scheme --script")
-	("build" . "make"))
+	("build" . "cd ./lib/scheme-lib && make"))
 ("dependencies" 
     ("json" . "0.5.1")
     ("surfage" . "0.1.0")
