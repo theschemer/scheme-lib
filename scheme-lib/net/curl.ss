@@ -8,7 +8,7 @@
     (import (scheme)
     		(scheme-lib cffi cffi)
             (scheme-lib net curl-ffi)
-            (c c-ffi)
+            (scheme-lib c c-ffi)
             (scheme-lib regex regex))
 
     (def-function-callback

@@ -50,9 +50,9 @@
     (define lib-name
      (case (machine-type)
        ((arm32le) "libglut.so")
-       ((a6nt i3nt)  (load-lib "glut32.dll") "libglut.dll")
-       ((a6osx i3osx)  "libglut.so")
-       ((a6le i3le) "libglut.so")))
+       ((a6nt i3nt ta6nt ti3nt)  (load-lib "glut32.dll") "libglut.dll")
+       ((a6osx i3osx ta6osx ti3osx)  "libglut.so")
+       ((a6le i3le ta6le ti3le) "libglut.so")))
 
     (define lib (load-lib lib-name))
 

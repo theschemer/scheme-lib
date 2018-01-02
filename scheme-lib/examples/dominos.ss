@@ -33,9 +33,9 @@
 (define scale
     (case (machine-type)
       ((arm32le) 1 )
-      ((a6nt i3nt)  1)
-      ((a6osx i3osx)  2 )
-      ((a6le i3le) 1 )))
+      ((a6nt i3nt ta6nt ti3nt)  1)
+      ((a6osx i3osx ta6osx ti3osx)  2 )
+      ((a6le i3le ta6le ti3le) 1 )))
 
 (initialize-glut)
 

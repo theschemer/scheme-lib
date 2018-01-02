@@ -1,5 +1,5 @@
 (("name" . "scheme-lib")
-("version" . "0.1.0")
+("version" . "0.1.1")
 ("description" . "scheme scheme-lib for gui gles gl slib openal socket web mongodb box2d game glfw mysql libevent android osx linux")
 ("keywords")
 ("author" 

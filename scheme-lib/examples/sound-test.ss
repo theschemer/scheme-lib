@@ -5,7 +5,7 @@
 ;(load "../../../packages/apps/hello.ss")
 
 (define file "game_bg.wav")
-(alut-init )
+(alut-init)
 ;(alut-create-buffer-from-file file)
 ;(define a (alut-play-file file))
 ;(al-source-i a AL-LOOPING AL-TRUE)

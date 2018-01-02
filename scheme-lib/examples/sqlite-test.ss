@@ -4,7 +4,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;sqlite 连接例子
 
-(import (scheme-lib sqlite sqlite3-ffi) (scheme-lib cffi cffi) )
+(import (scheme-lib sqlite sqlite3-ffi) (scheme-lib cffi cffi))
 
 ;;(cffi-log #t)
 
@@ -13,7 +13,7 @@
 (define sql "create table healthinfo ( 
            sid int primary key not null,
            name text not null,
-           ishealth char(4) not null);")
+           ishealth char(4) not null)")
 
 (define errmsg (cffi-alloc 32))
 

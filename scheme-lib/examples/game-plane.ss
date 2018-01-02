@@ -45,10 +45,7 @@
 (define objects-hash (make-eq-hashtable) )
 ;;资源文件目录设置
 (define res-dir 
-         (case (machine-type)
-           ((arm32le) "/data/data/org.evilbinary.chez/files/")
-           (else "./")
-            ))
+  "./lib/scheme-lib/resource")
 (define scale
     (case (machine-type)
       ((arm32le) 1 )

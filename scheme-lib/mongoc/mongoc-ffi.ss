@@ -437,14 +437,14 @@
   mongoc-stream-tls-new-with-hostname
   mongoc-stream-tls-new)
 
- (import (scheme) (scheme-lib utils libutil) (scheme-lib cffi cffi) (mongoc bson-ffi ))
+ (import (scheme) (scheme-lib utils libutil) (scheme-lib cffi cffi) (scheme-lib mongoc bson-ffi ))
 
  (define lib-name
    (case (machine-type)
      ((arm32le) "libmongoc.so")
-     ((a6nt i3nt) "libmongoc-1.0.dll")
-     ((a6osx i3osx)  "libmongoc.so")
-     ((a6le i3le) "libmongoc.so")))
+     ((a6nt i3nt ta6nt ti3nt) "libmongoc-1.0.dll")
+     ((a6osx i3osx ta6osx ti3osx)  "libmongoc.so")
+     ((a6le i3le ta6le ti3le) "libmongoc.so")))
  (define lib (load-librarys  lib-name ))
 
 

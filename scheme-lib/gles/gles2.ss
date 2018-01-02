@@ -590,9 +590,9 @@
          (define lib-name
            (case (machine-type)
              ((arm32le) "libgl.so")
-             ((a6nt i3nt)  "libgl.dll")
-             ((a6osx i3osx)  "libgl.so")
-             ((a6le i3le) "libgl.so")))
+             ((a6nt i3nt ta6nt ti3nt)  "libgl.dll")
+             ((a6osx i3osx ta6osx ti3osx)  "libgl.so")
+             ((a6le i3le ta6le ti3le) "libgl.so")))
 
          (define lib (load-lib lib-name))
 

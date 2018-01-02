@@ -317,10 +317,11 @@
                 (eq? "" (hashtable-ref loaded-libs (string-append (car libs) "/" name) "")))
             (begin
               (if cffi-enable-log
-                (display (format "cffi-load-lib ~a\n" (string-append (car libs) "/" name)) ))
+                (display (format "cffi-load-lib ~a\n" (string-append (car libs) "/" name))))
               (cffi-open-lib (string-append (car libs) "/" name)) 
-              (hashtable-set! loaded-libs (string-append (car libs) "/" name) name )))
-          (loop (cdr libs))))))
+              (hashtable-set! loaded-libs (string-append (car libs) "/" name) name))
+            (loop (cdr libs))))
+        (display (format "cannot find lib ~a\nyou shoud add ~a to ./lib/scheme-lib/bin\n" name name)))))
 
 
   (define (load-librarys . args)

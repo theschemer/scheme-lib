@@ -18,3 +18,4 @@ lib/libscm
 slibcat
 *.o
 *.so
+._*

@@ -62,9 +62,9 @@
    (define lib-name
      (case (machine-type)
        ((arm32le) "libgui.so")
-       ((a6nt i3nt) "libgui.dll")
-       ((a6osx i3osx)  "libgui.so")
-       ((a6le i3le) "libgui.so")))
+       ((a6nt i3nt ta6nt ti3nt) "libgui.dll")
+       ((a6osx i3osx ta6osx ti3osx)  "libgui.so")
+       ((a6le i3le ta6le ti3le) "libgui.so")))
   (define lib (load-librarys  lib-name))
   
   (define nil '())

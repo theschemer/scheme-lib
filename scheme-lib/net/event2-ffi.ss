@@ -232,9 +232,9 @@
  (define lib-name
   (case (machine-type)
    ((arm32le) "libevent2.so")
-   ((a6nt i3nt) "libevent2.dll")
-   ((a6osx i3osx)  "libevent2.dylib")
-   ((a6le i3le) "libevent2.so")))
+   ((a6nt i3nt ta6nt ti3nt) "libevent2.dll")
+   ((a6osx i3osx ta6osx ti3os)  "libevent2.dylib")
+   ((a6le i3le ta6le ti3le) "libevent2.so")))
  (define lib (load-librarys  lib-name ))
 
 ;;int evutil_date_rfc1123(char* date ,size_t datelen ,struct tm* tm)
