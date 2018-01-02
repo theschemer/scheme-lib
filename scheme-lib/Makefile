@@ -9,7 +9,7 @@ TARGET = scheme
 EXT=.so
 UNAME_S := $(shell uname -s)
 
-ifneq ($(findstring "MINGW32_NT-", $(UNAME_S)), "")
+ifeq ($(UNAME_S), MINGW32_NT-6.1)
   EXT=.dll
 endif
 SOFILES= lib/libscm/libscm$(EXT) \
